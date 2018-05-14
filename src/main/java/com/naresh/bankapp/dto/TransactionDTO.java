@@ -12,4 +12,6 @@ public class TransactionDTO {
 	private Long toAccount;
 	
 	private Long transactionAmount;
+	
+	private String mode;
 }

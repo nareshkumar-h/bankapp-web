@@ -30,7 +30,10 @@ public class Transaction {
 
 	@Column(name = "transaction_type")
 	private String transactionType;
-
+	 
+	
+	private String mode; 
+	
 	private String status;
 	
 	private Long amount;
