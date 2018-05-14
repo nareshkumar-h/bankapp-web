@@ -32,6 +32,8 @@ public class Transaction {
 	private String transactionType;
 
 	private String status;
+	
+	private Long amount;
 
 	private Boolean active;
 
