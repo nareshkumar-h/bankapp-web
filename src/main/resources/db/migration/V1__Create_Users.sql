@@ -1,0 +1,16 @@
+
+CREATE TABLE users
+(
+id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(100) NOT NULL,
+email VARCHAR(100) NOT NULL,
+password VARCHAR(100) NOT NULL,
+active BOOLEAN NOT NULL DEFAULT TRUE,
+created_date TIMESTAMP NOT NULL,
+modified_date TIMESTAMP NOT NULL,
+UNIQUE ( email)
+);
+
+INSERT INTO users(NAME,email,PASSWORD) VALUES
+('C1', 'c1@gmail.com','pass123'),
+('C2', 'c2@gmail.com','pass123');
